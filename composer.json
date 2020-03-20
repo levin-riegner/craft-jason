@@ -1,8 +1,8 @@
 {
-  "name": "levin-riegner/craft-jason",
+  "name": "levinriegner/craft-jason",
   "description": "A field type for displaying & editing JSON data.",
   "type": "craft-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "keywords": [
     "craft",
     "cms",
@@ -11,8 +11,8 @@
     "jason"
   ],
   "support": {
-    "docs": "https://github.com/chasegiunta/craft-jason/blob/master/README.md",
-    "issues": "https://github.com/chasegiunta/craft-jason/issues"
+    "docs": "https://github.com/levin-riegner/craft-jason/blob/master/README.md",
+    "issues": "https://github.com/levin-riegner/craft-jason/issues"
   },
   "license": "proprietary",
   "authors": [
@@ -34,7 +34,7 @@
     "handle": "jason",
     "hasCpSettings": false,
     "hasCpSection": false,
-    "changelogUrl": "https://raw.githubusercontent.com/chasegiunta/craft-jason/master/CHANGELOG.md",
+    "changelogUrl": "https://raw.githubusercontent.com/levin-riegner/craft-jason/master/CHANGELOG.md",
     "class": "chasegiunta\\jason\\Jason"
   }
 }
