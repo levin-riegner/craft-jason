@@ -122,7 +122,8 @@ class JasonField extends Field
      */
     public function normalizeValue($value, ElementInterface $element = null)
     {
-        if (Craft::$app->request->getIsSiteRequest()) {
+        if (Craft::$app->request->getIsSiteRequest() && 
+        !Craft::$app->request->getIsActionRequest()) {
             return json_decode($value, true);
         } else {
             return $value;
